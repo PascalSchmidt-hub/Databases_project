@@ -1,2 +1,2 @@
 # Databases_project
-Project in databases by Pascal Schmidt, Philip Becht and Simon Wrigg
+Project in databases by Pascal Schmidt, Philipp Becht and Simon Wrigg
