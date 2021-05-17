@@ -356,11 +356,9 @@ TRANSACTION
 +++++++++++++++++++++++++++++++++++++++++++
 
 
-
-
-
-
-
+UPDATE MEMBER
+SET e_mail='new.emailfromjan@yahoo.de'
+WHERE member_id = 1007
 
 
 
@@ -373,6 +371,18 @@ TRANSACTION
 STORED PROCEDURE
 
 +++++++++++++++++++++++++++++++++++++++++++
+
+
+CREATE PROCEDURE No_bracelet
+AS
+SELECT DISTINCT Fname, e_mail
+FROM MEMBER
+WHERE bracelet_num is null
+ORDER BY Fname DESC
+GO;
+
+EXECUTE PROCEDURE No_bracelet
+
 
 
 
