@@ -7,3 +7,11 @@ The group decided to design a database for a gym-chain, which keeps track of the
 
 
 Please find our Screencast and Demonstration Video here: https://www.dropbox.com/home/Databases%20Project%20Screencast
+
+
+In order to execute our application locally on your Computer, please follow these guidelines:
+1) Download the folder "databases" and save it on your computer
+2) Set up & Run Docker Desktop
+3) Open your CMD and navigate to the directory, where the databases folder is located
+4) Enter "docker-compose up -d"
+5) Enter "python gym_database_app.py"
