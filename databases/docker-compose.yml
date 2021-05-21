@@ -1,0 +1,13 @@
+version: '3.3'
+services: 
+    db:
+        image: postgres
+        environment: 
+            - POSTGRES_PASSWORD=Mannheim
+        volumes: 
+            - postgresVolume:/var/lib/postgresql/data
+            - ./data.sql:/docker-entrypoint-initdb.d/init.sql
+        ports: 
+            - '5433:5432'
+volumes:
+    postgresVolume:
