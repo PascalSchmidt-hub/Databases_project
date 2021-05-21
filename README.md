@@ -14,4 +14,4 @@ In order to execute our application locally on your computer, please follow thes
 2) Set up & run Docker Desktop
 3) Open your CMD and navigate to the directory, where the databases folder is located
 4) Enter "docker-compose up -d"
-5) Enter "python gym_database_app.py"
+5) Enter "python gym_database_app.py" (psycopg2 must be installed)
