@@ -133,7 +133,7 @@ INSERT COMMANDS
 INSERT INTO BRACELET
 VALUES	(5543,'blue'),
 	(5542,'red'),
-        (5541,'yellow');
+        (5541,'yellow'),
 	(5544, 'grey'),
         (5545, 'grey'),
         (5546, 'rosa'),
@@ -178,7 +178,7 @@ VALUES      ('Standard3',39.99,'104 Weeks'),
 INSERT INTO MEMBER
 VALUES	(1001,'Jonas','Fink','1988-05-22','M','jonasfink@gmail.com','2020-01-10','2022-01-10',5543,10001,'Premium2','FRA'),
 	(1002,'Marc','Auel','1998-09-12','M','marc.auel@gmail.com','2020-06-10','2022-06-10',5542,10001,'Premium2','FRA'),	
-        (1003,'Simone','Petersen','1977-03-12','F','simonesemail@outlook.com','2018-06-10','2021-06-10',5541,10002,'Standard3','FRA');
+        (1003,'Simone','Petersen','1977-03-12','F','simonesemail@outlook.com','2018-06-10','2021-06-10',5541,10002,'Standard3','FRA'),
         (1004,'Philipe','Werner','1978-05-14','M','pwprivat@gmail.com','2020-06-15','2022-06-15',5544,10001,'Standard3','FRA'),
         (1005,'Armin','Lasche','1948-05-24','M','allll@gmail.com','2019-06-15','2021-06-15',5545,10002,'Standard3','FRA'),
         (1006,'Jana','Schmitt','2001-07-14','W','jjsjsjs@gmail.com','2020-05-25','2022-05-25',5546,20001,'Standard3','MHG'),
